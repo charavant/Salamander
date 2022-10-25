@@ -64,7 +64,7 @@ layout = [
 
 
 
-window = sg.Window('Salamander', layout)
+window = sg.Window('Salamander', layout, margins=(100,50))
 
 while True:
     event, values = window.read()
